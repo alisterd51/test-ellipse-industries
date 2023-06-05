@@ -53,3 +53,20 @@ Framework de tests unitaires: [unittest](https://docs.python.org/fr/3.11/library
 CI/CD: [github action](https://docs.github.com/fr/actions)
 
 Base de données: [postgres 15](https://www.postgresql.org/docs/15/index.html)
+
+### Structure du projet
+
+```text
+.
+├── compose.yaml
+├── app
+    ├── Dockerfile
+    ├── requirements.txt
+    └── manage.py
+```
+
+### Déployer avec docker compose
+
+```bash
+docker compose up -d
+```
