@@ -31,3 +31,25 @@ L'exercice est composé d'une partie théorique et d'une partie pratique.
 
     - Wordpress oui, j'expérimente sur mon site [wordpress.anclarma.fr](https://wordpress.anclarma.fr), cepandent, c'est un site qui me sert uniquement un tester des plugins, mon vrai site est [blog.anclarma.fr](https://blog.anclarma.fr) qui est aussi en développement et est écrit en angular 16.
     - Odoo non, je sais juste qu'il s'agit d'un progiciel de gestion d'entreprise du meme type qu'SAP.
+
+## Partie Pratique
+
+Voici l'énoncé de la partie pratique:
+
+1. Écris un script Python pour récupérer des données d'une API, puis les exploiter pour en tirer des informations intéressantes (ex : pourcentage de vélos mécanique vs électrique en fonction des villes, classement des villes avec le plus de vélo, etc.).
+
+2. Mets en forme les différentes stations et leurs informations sur une carte géographique (choix des technologies et librairies libre)
+
+3. L’API JCDecaux met à jour en temps réel certaines informations (rafraîchis toutes les minutes). Pour aller plus loin, fais en sorte de mettre à jour ces informations en temps réel sur ta carte (plus d’information dans la documentation de l'api ci-dessous).
+
+### Choix des technologies
+
+Environnement d'exécution: [docker](https://docs.docker.com/), [python3.11](https://hub.docker.com/_/python)
+
+Framework web: [django](https://docs.djangoproject.com/)
+
+Framework de tests unitaires: [unittest](https://docs.python.org/fr/3.11/library/unittest.html)
+
+CI/CD: [github action](https://docs.github.com/fr/actions)
+
+Base de données: [postgres 15](https://www.postgresql.org/docs/15/index.html)
