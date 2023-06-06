@@ -68,5 +68,8 @@ Base de données: [postgres 15](https://www.postgresql.org/docs/15/index.html)
 ### Déployer avec docker compose
 
 ```bash
+# in a production environment, you MUST replace the values in this file
+cp sample.env .env
+
 docker compose up -d
 ```
