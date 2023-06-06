@@ -73,3 +73,7 @@ cp sample.env .env
 
 docker compose up -d
 ```
+
+Le site sera donc disponible à l'url <http://localhost:8000>.
+
+Pour plus de réalisme, le site sera également en production [ici](https://bike.anclarma.fr), basé sur l'image du [docker hub](https://hub.docker.com/r/anclarma/bike-django) connecté à ce repo.
