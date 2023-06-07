@@ -46,13 +46,15 @@ Voici l'énoncé de la partie pratique:
 
 Environnement d'exécution: [docker](https://docs.docker.com/), [python3.11](https://hub.docker.com/_/python)
 
-Framework web: [django](https://docs.djangoproject.com/)
+Framework web: [django](https://docs.djangoproject.com/), [GeoDjango](https://docs.djangoproject.com/fr/4.2/ref/contrib/gis/tutorial/)
 
 Framework de tests unitaires: [unittest](https://docs.python.org/fr/3.11/library/unittest.html)
 
+“Code without tests is broken by design.”, *Jacob Kaplan-Moss*
+
 CI/CD: [github action](https://docs.github.com/fr/actions)
 
-Base de données: [postgres 15](https://www.postgresql.org/docs/15/index.html)
+Base de données: [postgres 15](https://www.postgresql.org/docs/15/index.html), [postgis 15](https://hub.docker.com/r/kartoza/postgis)
 
 ### Structure du projet
 

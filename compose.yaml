@@ -20,7 +20,7 @@ services:
   db:
     container_name: db
     restart: always
-    image: postgres:15-alpine
+    image: kartoza/postgis:15
     volumes:
       - ./bike/data:/var/lib/postgresql/data
     environment:
